@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "ms-vscode.cpptools",
+    "ms-vscode.hexeditor",
+    "vadimcn.vscode-lldb",
+    "streetsidesoftware.code-spell-checker",
+    "actboy168.tasks",
+    "yzhang.markdown-all-in-one",
+    "davidanson.vscode-markdownlint"
+  ]
+}

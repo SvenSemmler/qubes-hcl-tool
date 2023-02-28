@@ -1,0 +1,75 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "clean",
+      "type": "shell",
+      "command": "make",
+      "windows":{
+        "command" : "mingw32-make.exe"
+      },
+      "args": [
+        "clean"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "default",
+      "type": "shell",
+      "command": "make",
+      "windows":{
+        "command" : "mingw32-make.exe"
+      },
+      "args": [
+        "default"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "lint",
+      "type": "shell",
+      "command": "make",
+      "windows":{
+        "command" : "mingw32-make.exe",
+        "options": {
+          "statusbar":{
+            "hide" : true
+          }
+        }
+      },
+      "args": [
+        "lint"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "all",
+      "type": "shell",
+      "command": "make",
+      "windows":{
+        "command" : "mingw32-make.exe",
+        "options": {
+          "statusbar":{
+            "hide" : true
+          }
+        }
+      },
+     "args": [
+        "all",
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+ ]
+}
