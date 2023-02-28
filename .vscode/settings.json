@@ -17,5 +17,12 @@
             "CHERE_INVOKING": "1",
             "MSYS2_PATH_TYPE": "inherit"
            }
-  }
+  },
+  "cSpell.words": [
+    "inputfile",
+    "outputfile",
+    "Qubes",
+    "Semmler",
+    "Wused"
+  ]
 }
